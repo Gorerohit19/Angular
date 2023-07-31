@@ -12,9 +12,9 @@ import { NgChartsConfiguration, NgChartsModule } from 'ng2-charts';
   ],
   imports: [
     BrowserModule,
-    NgChartsModule
+    NgChartsModule.forRoot()
   ],
-  providers: [{ provide: NgChartsConfiguration, useValue: { generateColors: false }}],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
