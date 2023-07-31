@@ -33,9 +33,11 @@ export class ChartsComponent {
   //public barChartPlugins = [DataLabelsPlugin];
 
   public barChartData: ChartData<'bar'> = {
-    labels: ['Monaday', 'Tusday', '2019', '2020', '2021', '2022', '2023'],
+    labels: ['Monaday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
     datasets: [
-      { data: [65, 59, 80, 81, 56, 55, 40], label: 'Revenue Lakhs' }
+      { data: [65, 59, 80, 81, 56, 55, 40], label: 'Screen 1 :Lakhs' },
+      { data: [62, 52, 89, 82, 57, 51, 45], label: 'Screen 2 :Lakhs' },
+      { data: [63, 51, 85, 86, 52, 54, 48], label: 'Screen 3 :Lakhs' },
     ],
   };
 
