@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { ChartsComponent } from './charts/charts.component';
 import { NgChartsModule } from 'ng2-charts';
 import { LinechartComponent } from './linechart/linechart.component';
+import { HttpClientModule } from '@angular/common/http';
 // import { PiechartComponent } from './piechart/piechart.component';
 
 
@@ -18,6 +19,8 @@ import { LinechartComponent } from './linechart/linechart.component';
   imports: [
     BrowserModule,
     NgChartsModule.forRoot(),
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -6,8 +6,8 @@ describe('ChartsComponent', () => {
   let component: ChartsComponent;
   let fixture: ComponentFixture<ChartsComponent>;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
       declarations: [ChartsComponent]
     });
     fixture = TestBed.createComponent(ChartsComponent);
@@ -19,3 +19,11 @@ describe('ChartsComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
+function beforeEach(arg0: () => void) {
+  throw new Error('Function not implemented.');
+}
+function expect(component: ChartsComponent) {
+  throw new Error('Function not implemented.');
+}
+
